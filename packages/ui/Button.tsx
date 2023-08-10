@@ -5,7 +5,7 @@ import styled, { ThemeProvider } from 'styled-components'
 
 const StyledButton = styled.button`
   background-color: white;
-  padding: 10px 20px;
+  padding: ${props => props.theme.padding};
   color: ${props => props.theme.color};
   `
 

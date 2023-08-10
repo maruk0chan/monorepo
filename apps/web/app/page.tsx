@@ -1,11 +1,11 @@
 import { Button, Header } from "ui";
+import theme from '../theme'
 
 export default function Page() {
-  const theme = { color: 'green' }
   return (
     <>
       <Header text="Biobank" />
-      <Button theme={theme}/>
+      <Button theme={theme.button}/>
     </>
   );
 }
