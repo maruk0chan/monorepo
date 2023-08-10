@@ -1,5 +1,5 @@
 const button = {
-  color: 'blue',
+  color: 'green',
   padding: '20px 40px'
 }
 
