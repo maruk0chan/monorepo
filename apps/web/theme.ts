@@ -1,6 +1,7 @@
 const button = {
-  color: 'green',
-  padding: '20px 40px'
+  color: 'white',
+  padding: '10px 40px',
+  backgroundColor: 'green'
 }
 
 export default {
