@@ -1,10 +1,11 @@
 import { Button, Header } from "ui";
 
 export default function Page() {
+  const theme = { color: 'green' }
   return (
     <>
-      <Header text="Web" />
-      <Button />
+      <Header text="Biobank" />
+      <Button theme={theme}/>
     </>
   );
 }
