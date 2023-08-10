@@ -7,6 +7,7 @@ const StyledButton = styled.button`
   background-color: ${props => props.theme.backgroundColor};
   padding: ${props => props.theme.padding};
   color: ${props => props.theme.color};
+  border-radius: ${props => props.theme.borderRadius};
   `
 
 export const Button = ({ theme }) => {

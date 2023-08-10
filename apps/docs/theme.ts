@@ -1,7 +1,7 @@
 const button = {
-  color: 'white',
+  color: 'blue',
   padding: '20px 10px',
-  backgroundColor: 'blue'
+  borderRadius: '5px'
 }
 
 export default {
